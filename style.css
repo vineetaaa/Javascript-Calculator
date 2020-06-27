@@ -1,0 +1,52 @@
+button.greybtn, button.whitebtn{
+    height: 90px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: 1px solid rgb(168, 168, 168);
+}
+.main{
+    border: 1px solid grey;
+    width: fit-content;
+    margin: 0 auto;
+}
+input{
+    height: 100px;
+    width: 98%;
+    font-size: 2em;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    padding: 0; 
+    margin: 0;
+}
+.greybtn{
+    color: #00ACC1;
+    font-weight: bold;
+    font-size: 2em;
+}
+i{
+    font-weight: normal;
+}
+.whitebtn{
+    background-color: white;
+    font-size: 1.6em;
+}
+.bluebtn{
+    height: 180px;
+    width: 100px;
+    font-size: 2em;
+    border: 1px solid rgb(151, 151, 151);
+    background-color: #00ACC1;
+    color: white;
+}
+button.greybtn:hover, button.whitebtn:hover{
+    background-color: rgb(177, 177, 177);
+}
+button.bluebtn:hover{
+    background-color: #0097A7;
+}
